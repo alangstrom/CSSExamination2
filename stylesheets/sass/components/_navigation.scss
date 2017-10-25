@@ -1,0 +1,17 @@
+nav {
+  padding: 0 32px;
+  ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    li {
+      display: inline-block;
+      padding: 16px;
+      color: $primary-color-dark-blue;
+      font-weight: bold;
+    }
+    li:first-of-type {
+      margin-right: auto;
+    }
+  }
+}

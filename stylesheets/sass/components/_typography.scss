@@ -1,4 +1,27 @@
+html {
+  font-family: Helvetica,sans-serif;
+}
+
+p,h1,h2,h3,h4 {
+  padding: 0;
+  margin: 0;
+}
+
+h2 {
+  font-size: 42px;
+}
+
 p {
-  font-size: $font-big;
   color: $main-font-color;
+  font-size: 16px;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+
+}
+
+a:visited {
+  color: $primary-color-dark-blue;
 }
