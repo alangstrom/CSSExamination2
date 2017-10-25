@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,CAAE,CACA,SAAS,CCAA,IAAI,CDCb,KAAK,CCFW,GAAG",
+"sources": ["../sass/components/_typography.scss","../sass/base/_variables.scss"],
+"names": [],
+"file": "style.css"
+}
