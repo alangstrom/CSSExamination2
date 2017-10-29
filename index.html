@@ -6,7 +6,7 @@
 <head>
   <meta charset="utf-8">
 
-  <title>Mega Lazer Inc.</title>
+  <title>HexColors - Examination 2</title>
   <meta name="description" content="Examination 2">
   <meta name="author" content="Arvid Långström">
 
@@ -18,9 +18,9 @@
   <nav>
     <ul>
       <li><a href="#">#HexColors</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="about.html">About</a></li>
       <li><a href="#">Home</a></li>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Contact</a></li>
     </ul>
   </nav>
 
@@ -33,35 +33,62 @@
     <section id="hex-info">
       <h2>What are hex colors?</h2>
       <div class="line"></div>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    </section>
+      <p>A hex triplet is a six-digit, three-byte hexadecimal number used in HTML, CSS, SVG, and other computing applications to represent colors. The bytes represent the red, green and blue components of the color. One byte represents a number in the range 00 to FF (in hexadecimal notation), or 0 to 255 in decimal notation. This represents the least (0) to the most (255) intensity of each of the color components. Thus web colors specify colors in the True Color (24-bit RGB) color scheme. The hex triplet is formed by concatenating three bytes in hexadecimal notation, in the following order:
+      <p>Byte 1: red value (color type red)</p>
+      <p>Byte 2: green value (color type green)</p>
+      <p>Byte 3: blue value (color type blue)</p>
+
+
+<p>For example, consider the color where the red/green/blue values are decimal numbers: red=36, green=104, blue=160 (a grayish-blue color). The decimal numbers 36, 104 and 160 are equivalent to the hexadecimal numbers 24, 68 and A0 respectively. The hex triplet is obtained by concatenating the 6 hexadecimal digits together, 2468A0 in this example.
+
+If any one of the three color values is less than 10 hex (16 decimal), it must be represented with a leading zero so that the triplet always has exactly six digits. For example, the decimal triplet 4, 8, 16 would be represented by the hex digits 04, 08, 10, forming the hex triplet 040810.
+
+The number of colors that can be represented by this system is 2563 or 224 or 166 = 16,777,216.</p>
+</section>
 
     <section id="color-blocks">
-      <h2>Colors</h2>
+      <h2>Examples</h2>
       <div class="line"></div>
       <div class="block-container">
         <div class="color-block-row">
-          <div class="color-block" id="red"></div>
-          <div class="color-block"></div>
-          <div class="color-block" id="green"></div>
+          <div class="color-block" id="red">
+            <h4>#EA0B0B</h4>
+          </div>
+          <div class="color-block">
+            <h4>#007FFF</h4>
+          </div>
+          <div class="color-block" id="green">
+            <h4>#41B538</h4>
+          </div>
         </div>
         <div class="color-block-row">
-          <div class="color-block" id="teal"></div>
-          <div class="color-block" id="orange"></div>
-          <div class="color-block" id="purple"></div>
+          <div class="color-block" id="teal">
+            <h4>#17CCB9</h4>
+          </div>
+          <div class="color-block" id="orange">
+            <h4>#FF7300</h4>
+          </div>
+          <div class="color-block" id="purple">
+            <h4>#92169C</h4>
+          </div>
         </div>
         <div class="color-block-row">
-          <div class="color-block" id="gray"></div>
-          <div class="color-block" id="yellow"></div>
-          <div class="color-block" id="black"></div>
+          <div class="color-block" id="gray">
+            <h4>#EEEEEE</h4>
+          </div>
+          <div class="color-block" id="yellow">
+            <h4>#FFB900</h4>
+          </div>
+          <div class="color-block" id="black">
+            <h4>#000</h4>
+          </div>
         </div>
       </div>
     </section>
   </div>
-
+  <footer>
+    <p>Arvid Långström - CSS-Baserad Webbdesign - Examination 2</p>
+  </footer>
 </body>
-<footer>
 
-</footer>
 </html>

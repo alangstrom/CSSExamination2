@@ -1,17 +1,39 @@
 nav {
-  padding: 0 32px;
+  position: fixed;
+  width: 100%;
+  background-color: #fff;
+  border-bottom: 1px solid $primary-color-light-blue;
+  z-index: 999;
+
   ul {
-    display: flex;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
+    width: 960px;
+
     li {
       display: inline-block;
       padding: 16px;
       color: $primary-color-dark-blue;
       font-weight: bold;
+      float: right;
     }
+
     li:first-of-type {
-      margin-right: auto;
+      float: left;
     }
+
+    a {
+      transition: all 0.2s ease-in-out;
+    }
+
+    a:hover {
+      color: $primary-color-light-blue;
+    }
+  }
+
+  ul::after {
+    content: "";
+    display: table;
+    clear: both;
   }
 }

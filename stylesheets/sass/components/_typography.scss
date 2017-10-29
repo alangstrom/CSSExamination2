@@ -2,7 +2,11 @@ html {
   font-family: Helvetica,sans-serif;
 }
 
-p,h1,h2,h3,h4 {
+h1,
+h2,
+h3,
+h4,
+p {
   padding: 0;
   margin: 0;
 }
@@ -11,15 +15,23 @@ h2 {
   font-size: 42px;
 }
 
+h3 {
+  font-size: 34px;
+}
+
+h4 {
+  font-size: 18px;
+}
+
 p {
   color: $main-font-color;
   font-size: 16px;
   margin: 0;
+  line-height: 1.6;
 }
 
 a {
   text-decoration: none;
-
 }
 
 a:visited {
